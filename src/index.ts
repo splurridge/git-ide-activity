@@ -2,4 +2,5 @@ const greet = (name: string): string => {
   return `Hello, ${name}!`;
 };
 
-console.log(greet("World"));
+const userName = process.argv[2];
+console.log(greet(userName || "World"));
