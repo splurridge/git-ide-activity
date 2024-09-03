@@ -3,4 +3,4 @@ const greet = (name: string): string => {
 };
 
 const userName = process.argv[2];
-console.log(greet(userName || "World"));
+console.log(greet(userName || "Francis"));
